@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wesabe-client", "wesabe-client\wesabe-client.csproj", "{AA3865C5-DC26-423D-9535-CA3978934672}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wesabelib", "websabelib\wesabelib.csproj", "{D24AB0D7-7176-427E-904C-7D851077CFAC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA3865C5-DC26-423D-9535-CA3978934672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3865C5-DC26-423D-9535-CA3978934672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3865C5-DC26-423D-9535-CA3978934672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3865C5-DC26-423D-9535-CA3978934672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24AB0D7-7176-427E-904C-7D851077CFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24AB0D7-7176-427E-904C-7D851077CFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24AB0D7-7176-427E-904C-7D851077CFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24AB0D7-7176-427E-904C-7D851077CFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
