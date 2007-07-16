@@ -33,7 +33,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="wesabe-tag.cs" />
+    <Compile Include="wesabe-merchant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wesabe-transaction.cs" />
     <Compile Include="wesabe-account.cs" />
     <Compile Include="wesabe-rest.cs" />
   </ItemGroup>
