@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using websabelib;
+using wesabelib;
 
 namespace wesabe_client
 {
@@ -13,7 +13,7 @@ namespace wesabe_client
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Accounts response = websabelib.wesabe_rest.getAccounts(args[0], args[1]);
+            Accounts response = wesabelib.wesabe_rest.getAccounts(args[0], args[1]);
 
             Console.WriteLine("Account Name                                Balance");
             Console.WriteLine("-----------------------------------  --------------");

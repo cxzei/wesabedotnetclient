@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography;
 using System.Xml;
 
-namespace websabelib
+namespace wesabelib
 {
     public class wesabe_rest
     {
