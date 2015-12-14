@@ -1,0 +1,1 @@
+This is a basic C# client to access the Wesabe HTTP API at https://www.wesabe.com/page/api
